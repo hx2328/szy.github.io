@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #fafafa;
+}
+img{
+    width:200px;
+    height:200px;
+}
+.piclist{
+    width:1200px;
+    height:400px;
+    margin:200px auto;
+}
+.picbox{
+    float:left;
+    width:200px;
+    height:300px;
+    margin:auto;
+    margin:10px;
+    position:relative;
+    /*父元素里面包含需要变换的内容，所以设置为3D变换*/
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition:1.0s;
+    /*设置在1.0s内完成变换*/
+}
+.picbox:hover{
+    transform:rotateY(180deg);
+}
+.box{
+    width:200px;
+    height:200px;
+    position:absolute
+    }
+.front{
+    border:2px solid #ddd;
+    box-shadow:10px 10px 10px #aaa;
+}
+.back{
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #7ab8cc;
+    border:2px solid #ddd;
+}
+.back h2{
+    color: white;
+    text-align: center;
+}

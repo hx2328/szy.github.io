@@ -1,0 +1,41 @@
+---
+title: "西安的老婆！！！"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<br/>
+
+# Academic Experience
+
+### 09/2017-06/2021 &emsp; University of California, Davis
+
+Major: Statistics   
+
+Degree：Bachelor of Science 
+
+### 09/2021-now &emsp; Columbia University in the City of New York
+
+Major: Biostatistics
+
+Degree: Master of Science
+
+<br/>
+
+# Professional Experience
+
+### 10/2020-11/2020 &emsp; Introduction to Modeling and Data Science in Biology
+
+Instructed by Professor Otto. X. Cordero, and worked with teammates:
+
+* built models through examples from epidemiology, ecology and cell biology
+
+* used SIR and SIRD model to predict the spread of Covid-19 in the United States
+
+<br/>
+
+# Skills
+
+R, python, C
