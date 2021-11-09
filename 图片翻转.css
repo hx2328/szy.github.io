@@ -7,7 +7,7 @@ body{
 }
 img{
     width:200px;
-    height:200px;
+    height:250px;
 }
 .piclist{
     width:1200px;
@@ -34,7 +34,7 @@ img{
 }
 .box{
     width:200px;
-    height:200px;
+    height:250px;
     position:absolute
     }
 .front{

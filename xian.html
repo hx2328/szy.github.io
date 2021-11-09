@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -223,69 +220,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -293,16 +227,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -344,6 +268,12 @@ div.tocify {
   <a href="guangzhou.html">广州</a>
 </li>
 <li>
+  <a href="wechat.html">
+    <span class="fa fa-weixin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
   <a href="letter.html">
     <span class="fa fa-birthday-cake fa-lg"></span>
      
@@ -369,42 +299,73 @@ div.tocify {
 </div>
 
 
-<p><br/></p>
-<div id="academic-experience" class="section level1">
-<h1>Academic Experience</h1>
-<div id="university-of-california-davis" class="section level3">
-<h3>09/2017-06/2021   University of California, Davis</h3>
-<p>Major: Statistics</p>
-<p>Degree：Bachelor of Science</p>
+<head>
+<meta charset="UTF-8">
+<title>
+图片翻转
+</title>
+<link rel="stylesheet" href="图片翻转.css">
+</head>
+<div class="piclist">
+<div class="picbox">
+<div class="box front">
+<img src="image/xian/1.jpg" alt="">
 </div>
-<div id="now-columbia-university-in-the-city-of-new-york" class="section level3">
-<h3>09/2021-now   Columbia University in the City of New York</h3>
-<p>Major: Biostatistics</p>
-<p>Degree: Master of Science</p>
-<p><br/></p>
-</div>
-</div>
-<div id="professional-experience" class="section level1">
-<h1>Professional Experience</h1>
-<div id="introduction-to-modeling-and-data-science-in-biology" class="section level3">
-<h3>10/2020-11/2020   Introduction to Modeling and Data Science in Biology</h3>
-<p>Instructed by Professor Otto. X. Cordero, and worked with teammates:</p>
-<ul>
-<li><p>built models through examples from epidemiology, ecology and cell biology</p></li>
-<li><p>used SIR and SIRD model to predict the spread of Covid-19 in the United States</p></li>
-</ul>
-<p><br/></p>
+<div class="box back">
+<h2>
+还是黄毛的老婆刚跟老公从西京医院出来去吃饭饭，老婆还对老公拍的不好看很不满
+</h2>
 </div>
 </div>
-<div id="skills" class="section level1">
-<h1>Skills</h1>
-<p>R, python, C</p>
+<div class="piclist">
+<div class="picbox">
+<div class="box front">
+<img src="image/xian/2.jpg" alt="">
+</div>
+<div class="box back">
+<h2>
+老婆在吴先生光速把头埋起来了<br/>那天还跟王妈吃饭了
+</h2>
+</div>
+</div>
+<div class="piclist">
+<div class="picbox">
+<div class="box front">
+<img src="image/xian/3.jpg" alt="">
+</div>
+<div class="box back">
+<h2>
+老公的屏保<br/>老婆在吴先生跟老公拍的，还要把脸脸藏在后面
+</h2>
+</div>
+</div>
+<div class="piclist">
+<div class="picbox">
+<div class="box front">
+<img src="image/xian/4.jpg" alt="">
+</div>
+<div class="box back">
+<h2>
+老婆做公交车跟老公去取surprise，老婆偷偷合影
+</h2>
+</div>
+</div>
+<div class="piclist">
+<div class="picbox">
+<div class="box front">
+<img src="image/xian/5.jpg" alt="">
+</div>
+<div class="box back">
+<h2>
+老婆在艾美做作的自拍，然后在老公的朋友圈社死！
+</h2>
+</div>
+</div>
+</div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -437,35 +398,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

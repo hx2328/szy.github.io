@@ -17,6 +17,8 @@ navbar:
       href: hainan.html
     - text: "广州"
       href: guangzhou.html
+    - icon: fa-weixin fa-lg
+      href: wechat.html
     - icon: fa-birthday-cake fa-lg
       href: letter.html
     - icon: fa-kiss-beam fa-lg
