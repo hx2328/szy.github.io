@@ -25,4 +25,4 @@ navbar:
       href: kiss.html
 output:
   html_document:
-    theme: flatly
+    theme: sandstone
