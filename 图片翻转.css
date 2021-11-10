@@ -26,7 +26,7 @@ img{
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    transition:1.0s;
+    transition:5.0s;
     /*设置在1.0s内完成变换*/
 }
 .picbox:hover{
