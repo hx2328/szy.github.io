@@ -1,5 +1,5 @@
 ---
-title: "老婆和老公最后去了广州"
+title: "老婆和老公最后去了广州!"
 output: 
   html_document
 ---
@@ -34,6 +34,11 @@ output:
  <div class="picbox">
   <div class="box front"><img src="image/guangzhou/7.jpg" alt=""></div>
    <div class="box back"><h2>摩打食堂，非常可，老公点的太多啦，后面吃的有点恶心心</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/guangzhou/8.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在走之前很舍不得老公，跟老公最后的合照</h2></div>
   </div>
   <div class="piclist">
  <div class="picbox">
