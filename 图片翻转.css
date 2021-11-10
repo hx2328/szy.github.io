@@ -27,7 +27,7 @@ img{
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition:4.0s;
-    /*设置在1.0s内完成变换*/
+    /*设置在4.0s内完成变换*/
 }
 .picbox:hover{
     transform:rotateY(180deg);
