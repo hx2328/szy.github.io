@@ -5,10 +5,8 @@ navbar:
   right:
     - text: "西安"
       href: xian.html
-    - text: "宝鸡"
+    - text: "宝鸡/咸阳"
       href: baoji.html
-    - text: "咸阳"
-      href: xianyang.html
     - text: "成都"
       href: chengdu.html
     - text: "杭州"
