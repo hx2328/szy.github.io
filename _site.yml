@@ -23,4 +23,4 @@ navbar:
       href: kiss.html
 output:
   html_document:
-    theme: sandstone
+    theme: journal

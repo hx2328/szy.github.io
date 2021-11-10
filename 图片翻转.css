@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background: #fafafa;
+    background: #dfeaf0;
 }
 img{
     width:200px;
@@ -46,7 +46,7 @@ img{
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    background: #7ab8cc;
+    background: #75d197;
     border:2px solid #ddd;
 }
 .back h2{
