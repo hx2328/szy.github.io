@@ -38,3 +38,7 @@ output:
 [海南老婆](hainan.html)
 
 [广州老婆](guangzhou.html)
+
+[微信上的老婆](wechat.html)
+
+[老婆生日快乐！](letter.html)
